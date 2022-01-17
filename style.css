@@ -1,0 +1,12 @@
+/* Used to make sure the nav bar doesn't cover the first part of the page */
+body:before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
